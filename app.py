@@ -157,7 +157,7 @@ def predict():
             'Education_Not Graduate': data['Education_Not Graduate']
         }])
         prediction = model.predict(features)
-        prediction_proba = model.predict_proba(features)[:, 1]  # Probability of being 1
+        prediction_proba = model.predict_proba(features)[:, 1]  # Probability of a loan being 1=Approved
         prediction_label = "Approved" if int(prediction[0]) == 1 else "Rejected"
         return jsonify({'prediction': prediction_label, 'probability of loan approval': float(prediction_proba[0])})
     except KeyError as e:
