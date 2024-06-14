@@ -11,7 +11,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
   - Create a google cloud account. Google cloud offers a $300 credit that you can use to access all GCP features for 3 months. Install the Google could SDK from [here](https://cloud.google.com/sdk/docs/install).
 - Docker: Install from [here](https://docs.docker.com/engine/install/).
 - kubectl installed:
-  - The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.
+  - The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. View more [here](https://kubernetes.io/docs/tasks/tools/).
 - GitHub repository with your project
 
 ### Steps to Deploy the Model on GCP
