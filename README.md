@@ -25,7 +25,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
 ### 2. Clone the Github repositry where you saved your model and deployment files using the command below
    - git clone https://github.com/your-username/loan-approval-prediction.git
 
-  - Check the files cloned using the command ls like below:
+  - Check the files cloned using this command: ls 
 
 <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/2608e8eb-e54d-4e21-b29b-8acd09cb0424">
 
