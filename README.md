@@ -31,9 +31,15 @@ In this repo we explore how we can build a comprehensive machine learning model 
 ###### Build the docker image
 - docker build -t gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1 .
 
-#### 3: Push the Docker Image to Google Container Registry
+#### 3: Push the Docker Image to Google Container Registry / Artifact Registry
 ##### First Authenticate Docker with Google Cloud
 - gcloud auth configure-docker
+  
+##### Push the Docker image to Google Container Registry:
+- docker push gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1
+
+  <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/ae594947-35a3-4554-8850-2738e8e08a57">
+
 
 
 
