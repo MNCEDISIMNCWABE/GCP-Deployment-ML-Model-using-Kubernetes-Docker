@@ -1,4 +1,4 @@
-# End-to-End Deployment of Machine Learning Models using Google Cloud Platform, Flask, Docker, and Kubernetes.
+# End-to-End Deployment of Machine Learning Models using Google Cloud Platform, Flask, Docker and Kubernetes.
 
 ### An Easy-to-Follow Guide to Train and Deploy a Loan Approval Prediction Machine Learning Model on GCP, Docker and Kubernetes.
 
