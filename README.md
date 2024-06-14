@@ -15,7 +15,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
 - GitHub repository with your project
 
 ## Steps to Deploy the Model on GCP
-#### 1. Clone the Repository
+### 1. Clone the Repository
 - First, clone your GitHub repository using the google cloud shell terminal:
 - Once you have your your google cloud account up and running, activate the cloud shell terminal as shown in the image below:
   
