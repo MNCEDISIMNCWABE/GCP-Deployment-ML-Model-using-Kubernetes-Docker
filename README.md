@@ -24,11 +24,11 @@ In this repo we explore how we can build a comprehensive machine learning model 
 
 ### 2. Clone the Github repositry where you saved your model and deployment files using the command below
    - git clone https://github.com/your-username/loan-approval-prediction.git
-#### 3: Build the Docker Image
 
+## 3: Build the Docker Image
 #### Navigate to your project directory
 - cd loan-approval-prediction
-###### Build the docker image
+##### Build the docker image
 - docker build -t gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1 .
 
 ### 3: Push the Docker Image to Google Container Registry / Artifact Registry
