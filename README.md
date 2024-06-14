@@ -10,6 +10,4 @@ In this repo we explore how we can build a comprehensive machine learning model 
 - Google Cloud Platform account
   Create a google cloud account. Google cloud offers a $300 credit that you can use to access all GCP features for 3 months. Install the Google could SDK from [here](https://cloud.google.com/sdk/docs/install).
 - Docker: Install from [here](https://docs.docker.com/engine/install/).
-- kubectl installed
-- Google Cloud SDK installed
 - GitHub repository with your project
