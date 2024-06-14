@@ -16,7 +16,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
 
 ## Steps to Deploy the Model on GCP
 #### 1. Clone the Repository
-- First, clone your GitHub repository to a google cloud shell terminal:
+- First, clone your GitHub repository using the google cloud shell terminal:
 - Once you have your your google cloud account up and running, activate the cloud shell terminal as shown in the image below:
   
 ![image](https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/c56155a1-4231-4478-b5af-482d9cc63e54)
