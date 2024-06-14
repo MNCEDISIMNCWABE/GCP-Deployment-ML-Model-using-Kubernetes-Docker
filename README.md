@@ -22,7 +22,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
 ![image](https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/c56155a1-4231-4478-b5af-482d9cc63e54)
 
 
-### 2. Clone the Github repositry where you saved your model and deployment files using the command below
+#### Clone the Github repositry where you saved your model and deployment files using the command below
    - git clone https://github.com/your-username/loan-approval-prediction.git
 
   - Check the files cloned using this command: ls 
@@ -30,13 +30,13 @@ In this repo we explore how we can build a comprehensive machine learning model 
 <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/2608e8eb-e54d-4e21-b29b-8acd09cb0424">
 
 
-### 3: Build the Docker Image
+### 2: Build the Docker Image
 #### Navigate to your project directory
 - cd loan-approval-prediction
 ##### Build the docker image
 - docker build -t gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1 .
 
-### 4: Push the Docker Image to Google Container Registry / Artifact Registry
+### 3: Push the Docker Image to Google Container Registry / Artifact Registry
 ##### First Authenticate Docker with Google Cloud
 - gcloud auth configure-docker
   
@@ -45,20 +45,20 @@ In this repo we explore how we can build a comprehensive machine learning model 
 
   <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/ae594947-35a3-4554-8850-2738e8e08a57">
 
-### 5: Create a Kubernetes Cluster
+### 4: Create a Kubernetes Cluster
 - gcloud container clusters create loan-approval-cluster --num-nodes=2
 
 #### Get authentication credentials for the cluster
 - gcloud container clusters get-credentials loan-approval-cluster
 
-### 6: Deploy the Application to Kubernetes
+### 5: Deploy the Application to Kubernetes
 Use the command below to deploy the appication to kubernetes
 - kubectl apply -f deployment.yaml
 
-### 7: Expose the Deployment as a Service
+### 6: Expose the Deployment as a Service
 - kubectl apply -f service.yaml
 
-### 8: Verify the Deployment
+### 7: Verify the Deployment
 - kubectl get services
 
 From here you should see an external IP address assigned to your loan-approval-service. Access your application at this IP address by typing it on your web browser. The external IP address can be shared with end-users to interact with and use the model to predict the loan application outcome for new applicants.
