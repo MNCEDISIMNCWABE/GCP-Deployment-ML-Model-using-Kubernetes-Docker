@@ -2,7 +2,7 @@
 
 ### An Easy-to-Follow Guide to Train and Deploy a Loan Approval Prediction Machine Learning Model on GCP, Docker and Kubernetes.
 
-In this repo we explore how we can build a comprehensive machine learning model to predict loan approvals and deploy the model using GCP (Google Cloud Platform), Docker, Kubernetes and Flask. In order to correctly identify people who have a high chance of having their loans approved, this model will be trained on applicant's financial historical data. The model can be used to help financial institutions to evaluate loan candidates and decide which loans to approve or reject. 
+In this repo we explore how we can build a comprehensive end-to-end machine learning model to predict loan approvals and deploy the model using GCP (Google Cloud Platform), Docker, Kubernetes and Flask. In order to correctly identify people who have a high chance of having their loans approved, this model will be trained on applicant's financial historical data such as their income, credit rating, employment status, and other relevant attributes. The model can be used to help financial institutions to evaluate loan candidates and decide which loans to approve or reject. 
 
 # Steps to deploy the model on GCP 
 
