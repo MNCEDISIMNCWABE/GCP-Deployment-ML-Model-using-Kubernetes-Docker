@@ -65,7 +65,8 @@ From here you should see an external IP address assigned to your loan-approval-s
 
 <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/9559e0f3-fd97-42c2-b41f-5303e894ac4d">
 
-<img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/28441ad1-81b6-4088-9202-ef7ff4bd21a3">
+<img width="1402" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/694fb140-fa54-4d00-a8a5-2db58d582048">
+
 
 
 
