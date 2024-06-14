@@ -49,7 +49,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
 ### 5: Deploy the Application to Kubernetes
 Use the command below to deploy the appication to kubernetes
 - kubectl apply -f deployment.yaml
-- 
+
 ### 6: Expose the Deployment as a Service
 - kubectl apply -f service.yaml
 
