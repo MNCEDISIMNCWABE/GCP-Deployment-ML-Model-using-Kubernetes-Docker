@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: loan-approval
-        image: gcr.io/YOUR-PROJECT-ID/loan-approval:v1
+        image: YOUR-GCP-ARTIFACT-REGITSTY-REPO/YOUR-PROJECT-ID/loan-approval:v1
         ports:
         - containerPort: 5006
