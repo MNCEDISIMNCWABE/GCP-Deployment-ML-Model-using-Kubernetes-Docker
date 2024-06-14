@@ -41,7 +41,7 @@ In this repo we explore how we can build a comprehensive machine learning model 
   <img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/ae594947-35a3-4554-8850-2738e8e08a57">
 
 ### 4: Create a Kubernetes Cluster
-- gcloud container clusters create loan-approval-cluster --num-nodes=3
+- gcloud container clusters create loan-approval-cluster --num-nodes=2
 
 #### Get authentication credentials for the cluster
 - gcloud container clusters get-credentials loan-approval-cluster
