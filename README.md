@@ -56,7 +56,15 @@ Use the command below to deploy the appication to kubernetes
 ### 7: Verify the Deployment
 - kubectl get services
 
-From here you should see an external IP address assigned to your loan-approval-service. Access your application at this IP address by typing it on your web browser.
+From here you should see an external IP address assigned to your loan-approval-service. Access your application at this IP address by typing it on your web browser. The external IP address can be shared with end-users to interact with and use the model to predict the loan application outcome for new applicants.
+
+<img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/9559e0f3-fd97-42c2-b41f-5303e894ac4d">
+
+<img width="1418" alt="image" src="https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/28441ad1-81b6-4088-9202-ef7ff4bd21a3">
+
+
+
+
 
 
 
