@@ -1,6 +1,6 @@
 # End-to-End Deployment of Machine Learning Models using Google Cloud Platform, Flask, Docker and Kubernetes.
 
-![image](https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/5ca8a8cb-a469-4a72-a726-381c47cc5b08)
+![ml_deploy](https://github.com/MNCEDISIMNCWABE/loan-approval-prediction-GCP/assets/67195600/cfdd666c-af1a-4795-84af-23659ac4b19c)
 
 
 ### An Easy-to-Follow Guide to Train and Deploy a Loan Approval Prediction Machine Learning Model on GCP, Docker and Kubernetes.
