@@ -37,7 +37,7 @@ In this repo we explore how we can build a comprehensive end-to-end machine lear
 #### Navigate to your project directory
 - cd loan-approval-prediction
 ##### Build the docker image
-- docker build -t gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1 .
+- ```docker build -t gcr.io/YOUR-GCP-PROJECT-ID/loan-approval:v1 .```
 
 ### 3: Push the Docker Image to Google Container Registry / Artifact Registry
 ##### First Authenticate Docker with Google Cloud
